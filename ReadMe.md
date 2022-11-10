@@ -23,22 +23,22 @@ Portföy web siteleri, çalışmalarınızı arkadaşlarınıza, ailenize ve gel
 
 Aşağıdaki adımları takip edin.:
 
-- [ ] Repoyu forklayın ve klonlayın.
-- [ ] BRANCH OLUŞTURMAYIN. Güncellemelerinizi main/master'a pushlayacaksınız.
-- [ ] konsoldan repo klasörünüze girin ve VS Code'u açmak için `code .` girin.
-- [ ] VS Code'un sol tarafındaki Eklentiler bölümünden Live Server eklentisini indirin. Eklenti yüklendikten sonra sağ altta bulunan "Go Live" butonuna basarak HTML dosyanızı çalıştırabilirsiniz.
-- [ ] Çalışmanızı düzenli commitlerle main branch'e aktarın. 
+- [X] Repoyu forklayın ve klonlayın.
+- [X] BRANCH OLUŞTURMAYIN. Güncellemelerinizi main/master'a pushlayacaksınız.
+- [X] konsoldan repo klasörünüze girin ve VS Code'u açmak için `code .` girin.
+- [X] VS Code'un sol tarafındaki Eklentiler bölümünden Live Server eklentisini indirin. Eklenti yüklendikten sonra sağ altta bulunan "Go Live" butonuna basarak HTML dosyanızı çalıştırabilirsiniz.
+- [X] Çalışmanızı düzenli commitlerle main branch'e aktarın. 
  
 ### Görev 2: Minimum Uygulanabilir Ürün
 
 Deponuz kurulduktan sonra, seçtiğiniz wireframe'lerden biriyle bir portföy sitesi oluşturmak için bugün öğrendiklerinizi uygulayın. **Yukarıdaki "Wireframe Seçenekleri" klasöründeki üç wireframe'den herhangi birini seçebilirsiniz.** Tüm projeniz, seçtiğiniz wireframe'e benzemeli ve aşağıdaki unsurların tümünü içermelidir:
 
-- [ ]  `Hakkında`, `Projeler`, ve `İletişim` sayfalarına bağlantı veren bir menü çubuğu
-- [ ]  Flexbox ile oluşturulmuş bir proje galerisi -  rasgele image bağlantısıyla şimdilik projelerim galerisinde rasgele imageler kullanabilirsiniz; rasgele image linki için tıklayın: https://picsum.photos/ ya da kullanmak istediğiniz başka görseller kullanabilirsiniz.
-- [ ]  Verilen örnek text yerine kendinizle ilgili bilgiler
-- [ ]  Projeler sayfasına bağlantılanan `Projelerim` butonu
-- [ ]  İletişim sayfasına bağlantılanan `Bana ulaş` butonu
-- [ ]  Anasayfanızın footerında sosyal medya linkeriniz (Instagram, linkedIn, Twitter)
+- [X]  `Hakkında`, `Projeler`, ve `İletişim` sayfalarına bağlantı veren bir menü çubuğu
+- [X]  Flexbox ile oluşturulmuş bir proje galerisi -  rasgele image bağlantısıyla şimdilik projelerim galerisinde rasgele imageler kullanabilirsiniz; rasgele image linki için tıklayın: https://picsum.photos/ ya da kullanmak istediğiniz başka görseller kullanabilirsiniz.
+- [X]  Verilen örnek text yerine kendinizle ilgili bilgiler
+- [X]  Projeler sayfasına bağlantılanan `Projelerim` butonu
+- [X]  İletişim sayfasına bağlantılanan `Bana ulaş` butonu
+- [X]  Anasayfanızın footerında sosyal medya linkeriniz (Instagram, linkedIn, Twitter)
 
 ### Görev 3: Ek Görevler
 
