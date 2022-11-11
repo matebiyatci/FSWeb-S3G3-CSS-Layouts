@@ -5,24 +5,27 @@
 
 
 header {
-    width: %100;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     background-color: antiquewhite;
 }
 
+
 h1 {
     margin-left: 20px;
-    font-size: 50px;
+    font-size: 5vw;
     margin-top: 0;
 }
 
 .container .item {
-    width: 100px;
-    height: 25px;
-    margin: 1px;
+    width: 20vw;
+    height: 4vw;
+    margin: 10px;
     border: 1px solid black;
     background-color: azure;
     text-align: center;
+    font-size: 2vw;
+    border-radius: 30px;
 }
 
 .container {
@@ -41,7 +44,11 @@ h1 {
     width: 40%;
     margin: 2%;
     display: inline-block;
-    margin-block-start: 1%;    
+    margin-block-start: 1%;   
+}
+
+.bodycontainer .half p {
+    font-size: 2vw;
 }
 
 .bodycontainer {
@@ -50,7 +57,7 @@ h1 {
     border-top: 1px solid black;
 }
 
-.half #projelerim {
+.half .projelerim {
     width: 100px;
     height: 25px;
     margin: 1px;
@@ -75,11 +82,10 @@ h1 {
 .bodycontainer2 {
     border-left: 1px solid black;
     border-right: 1px solid black;
-    height: 675px;
 }
 
 footer #banaulas {
-    height: 25px;
+    height: 20px;
     margin: 1px;
     padding: 5px;
     border: 1px solid black;
@@ -92,10 +98,11 @@ h3 {
 }
 
 footer {
-    width: %100;
+    width: 100%;
     background-color:antiquewhite ;
     display: flex;
     justify-content: center;
+    
     
 }
 
@@ -106,12 +113,13 @@ footer {
     height: 150px;
 }
 
+
 header .container .item:hover {
     background-color: black;
     color:white;
 }
 
-.half #projelerim:hover {
+.half .projelerim:hover {
     background-color: black;
     color:white;
 }
@@ -119,4 +127,328 @@ header .container .item:hover {
 #banaulas:hover {
     background-color: black;
     color:white;
+}
+
+@media(max-width: 1200px) { 
+    
+    header {
+        width: 100%;
+        height: 100%;
+        background-color: antiquewhite;
+    }
+    
+    
+    h1 {
+        margin-left: 20px;
+        font-size: 5vw;
+        margin-top: 0;
+    }
+    
+    .container .item {
+        width: 20vw;
+        height: 4vw;
+        margin: 1px;
+        border: 1px solid black;
+        background-color: azure;
+        text-align: center;
+        font-size: 2vw;
+    }
+    
+    .container {
+        margin-left: 20px;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    .first .half {
+        width: 40%;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .first .half img {
+        width: 110%;
+    }
+    
+    
+    
+    .container .item:first-child {
+        background-color: black;
+        color: white;
+    }
+    
+    
+    .bodycontainer .half {
+        width: 40%;
+        margin: 2%;
+        display: inline-block;
+        margin-block-start: 1%;    
+    }
+    
+    .bodycontainer {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+    }
+    
+    .half .projelerim {
+        width: 100px;
+        height: 25px;
+        margin: 1px;
+        border: 1px solid black;
+        background-color: azure;
+        text-align: center;
+    }
+    
+    .resimisim .proje {
+        width: 280px;
+        height: 260px;
+        margin: 30px;
+        text-align: center;
+    }
+    
+    .resimisim {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    
+    .bodycontainer2 {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    
+    footer #banaulas {
+        height: 25px;
+        margin: 1px;
+        padding: 5px;
+        border: 1px solid black;
+        background-color: azure;
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    footer {
+        width: 100%;
+        background-color:antiquewhite ;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    
+    .bodycontainer3 {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 150px;
+    }
+    
+    
+    header .container .item:hover {
+        background-color: black;
+        color:white;
+    }
+    
+    .half .projelerim:hover {
+        background-color: black;
+        color:white;
+    }
+    
+    #banaulas:hover {
+        background-color: black;
+        color:white;
+    }
+    }
+    
+
+@media (max-width: 800px) { 
+    header {
+        width: 100%;
+        height: 100%;
+        background-color: antiquewhite;
+        display: inline-block;
+    }
+    
+    h1 {
+        font-size: 5vw;
+        margin-top: 0;
+
+    }
+    
+    .container .item {
+        width: 20vw;
+        height: 4vw;
+        margin: 1px;
+        border: 1px solid black;
+        background-color: azure;
+        text-align: center;
+        font-size: 2vw;
+    }
+    
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;    }
+
+    .first .half {
+        width: 45%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .first .half img {
+        width: 100%;
+    }
+
+    .resimisim .proje {
+        width: 40%;
+        height: 40%;
+        margin: 1%;
+        text-align: center;
+    }
+
+    .resimisim .proje img {
+        width: 100%;
+    }
+    
+    .resimisim {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .bodycontainer2 {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+
+
+   
+}
+
+
+@media (max-width: 500px) { 
+    header {
+        width: 100%;
+        height: 100%;
+        background-color: antiquewhite;
+    }
+    
+    h1 {
+        font-size: 5vw;
+        margin-top: 0;
+        text-align: center;
+
+    }
+    
+    .container .item {
+        width: 100px;
+        height: 25px;
+        margin: 1px;
+        border: 1px solid black;
+        background-color: azure;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .container {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .first .half {
+        width: 80%;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        align-items: center ;
+
+    }
+
+    .first .half img {
+        width: 100%;
+    }
+
+ 
+    .bodycontainer {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+
+    }
+    
+    .bodycontainer .first {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+    }
+
+    .bodycontainer .half p {
+        font-size: 20px;
+    }
+    .half .projelerim {
+        width: 100px;
+        height: 25px;
+        margin: 1px;
+        border: 1px solid black;
+        background-color: azure;
+        text-align: center;
+    }
+
+    .resimisim .proje {
+        width: 40%;
+        height: 40%;
+        margin: 1%;
+        text-align: center;
+    }
+
+    .resimisim .proje img {
+        width: 100%;
+    }
+    
+    .resimisim {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .bodycontainer2 {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    footer #banaulas {
+        height: 25px;
+        margin: 1px;
+        padding: 5px;
+        border: 1px solid black;
+        background-color: azure;
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    footer {
+        width: 100%;
+        background-color:antiquewhite ;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bodycontainer3 {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 150px;
+    }
+
 }
